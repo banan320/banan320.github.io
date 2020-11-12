@@ -104,7 +104,7 @@ p {
   justify-content: center;
   flex-direction: column;
   height: 750px;
-  background: url(img/intro-bg.jpg) center no-repeat;
+  background: url(/img/intro-bg.jpg) center no-repeat;
   background-size: cover;
   background-color: #2f324c;
   padding-top: 100px;
