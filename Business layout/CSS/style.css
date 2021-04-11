@@ -169,7 +169,7 @@ p {
 }
 
 .img-human {
-  background-image: url(IMG/Human.jpg);
+  background-image: url(/IMG/Human.jpg);
   background-repeat: no-repeat;
 }
 
