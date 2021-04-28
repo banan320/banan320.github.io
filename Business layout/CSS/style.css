@@ -174,12 +174,12 @@ p {
 }
 
 .img-email {
-  background-image: url("..IMG/Mail.jpg");
+  background-image: url("../IMG/Mail.jpg");
   background-repeat: no-repeat;
 }
 
 .img-phone {
-  background-image: url("..IMG/Phone.jpg");
+  background-image: url("../IMG/Phone.jpg");
   background-repeat: no-repeat;
 }
 
