@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "Merriweather", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* конец сброса стилей =========== */
+
+/* container ======= */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header =========== */
+.header {
+  min-height: 1000px;
+  background: url("../img/zavod.jpg");
+  background-repeat: no-repeat;
+}
+
+/* Intro ========== */
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 70px;
+}
+
+.intro__inner {
+  margin-right: 100px;
+  width: 400px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.intro__title {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.intro__title_caption {
+  color: #ffffff;
+}
+
+.intro__subtitle {
+  padding: 10px 0;
+  color: #ffffff;
+}
+
+.header__number_box {
+  margin-bottom: 20px;
+}
+
+.header__number {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/*Google-maps ============ */
+.header__maps {
+  border-radius: 5px;
+  width: 400px;
+  height: 250px;
+}
